@@ -1,0 +1,33 @@
+﻿Build started 3/15/2015 6:13:13 PM.
+     1>Project "C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\openCvContours\openCvContours.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\openCvContours.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IE:\opencv\build\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt sudokuGrabber.cpp
+         sudokuGrabber.cpp
+     1>sudokuGrabber.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>sudokuGrabber.cpp(14): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>sudokuGrabber.cpp(18): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>sudokuGrabber.cpp(18): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\x64\Debug\openCvContours.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\opencv\build\x64\vc10\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\openCvContours.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\x64\Debug\openCvContours.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\x64\Debug\openCvContours.lib" /MACHINE:X64 x64\Debug\openCvContours.exe.embed.manifest.res
+         x64\Debug\contours.obj
+         x64\Debug\floodFill.obj
+         x64\Debug\sudokuGrabber.obj
+         openCvContours.vcxproj -> C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\x64\Debug\openCvContours.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\openCvContours.exe.embed.manifest" /manifest x64\Debug\openCvContours.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         openCvContours.vcxproj -> C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\x64\Debug\openCvContours.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\openCvContours.unsuccessfulbuild".
+         Touching "x64\Debug\openCvContours.lastbuildstate".
+     1>Done Building Project "C:\Users\Inspiron\Documents\Visual Studio 2010\openCvContours\openCvContours\openCvContours.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.74
